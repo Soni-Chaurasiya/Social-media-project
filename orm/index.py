@@ -25,7 +25,7 @@ models.Base.metadata.create_all(bind=database.engine)
 
 @app.get("/")
 def root():
-    return {"data": "hello"}
+    return {"data": "default value."}
 
 
 
